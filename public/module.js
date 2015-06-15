@@ -4,7 +4,7 @@ mainmodule.config(function($routeProvider) {
     $routeProvider
         .when('/', {
             templateUrl: '/home',
-            controller: 'homeCtrl'
+            controller: 'HomeCtrl'
         })
         // .when('Fichiers', {
         // 	templateUrl: '/fichiers',
@@ -33,6 +33,7 @@ mainmodule.config(function($routeProvider) {
     // });
 
 
-mainmodule.controller('homeCtrl', function($scope) { 
-    
+mainmodule.controller('HomeCtrl', function($scope) { 
+
+
 });
